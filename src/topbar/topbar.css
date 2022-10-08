@@ -14,13 +14,13 @@
 .top{
     width: 100%;
     height: 50px;
-    background-color: white;
+    background-color: var(--green-light1);
     position: sticky;
     top: 0;
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5px;
+   
 }
 
 .topLeft, .topRight{
@@ -34,7 +34,7 @@
     margin-right: 15px;
     color: #444;
     cursor: pointer;
-    color: var(--green-light2);
+    color: var(--green-light3);
 }
 
 .topCenter{
@@ -57,7 +57,7 @@ list-style: none ;
     font-weight: 200;
     cursor: pointer;
     font-family: 'Silkscreen', cursive;
-    color: var(--green-light2);
+    color: var(--green-light3);
 }
 
 .topListItem:hover, .topSearchIcon:hover, .topIcon:hover{
@@ -69,5 +69,5 @@ color: var(--green-dark2);
 .topSearchIcon{
     cursor: pointer;
     font-size: 20px;
-    color:var(--green-light2)
+    color:var(--green-light3)
 }

@@ -1,0 +1,46 @@
+:root{
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --green-light1 : #CAD2C5;
+    --green-light2: #84A98C;
+    --green-light3: #52796F;
+    --green-dark1: #354F52;
+    --green-dark2: #2F3E46;
+
+
+}
+
+.header{
+    margin-top: 60px;
+
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+   color: var(--green-light3);
+
+}
+
+.headerTitleSm{
+position: absolute;
+top: 18%;
+font-size: 20px;
+}
+
+.headerTitleLg{
+position: absolute;
+top: 20%;
+font-size: 100px;
+margin-left: 40px;
+}
+
+.headerImg{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
