@@ -1,0 +1,22 @@
+:root{
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --background-lgreen : #88d4ab;
+    --green-light1 : #CAD2C5;
+    --green-light2: #84A98C;
+    --green-light3: #52796F;
+    --green: #ADC178;
+    --green-dark1: #354F52;
+    --green-dark2: #2F3E46;
+    --brown1:#A98467;
+    --brown2:#9A7961;
+    --brown3:#8B6E5A;
+    --brown4:#6C584C;
+    --greenl: #e9f5db;
+
+}
+
+.single{
+    display: flex;
+    background-color: var(--greenl);
+}
