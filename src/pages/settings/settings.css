@@ -1,0 +1,112 @@
+:root{
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --background-lgreen : #88d4ab;
+    --green-light1 : #CAD2C5;
+    --green-light2: #84A98C;
+    --green-light3: #52796F;
+    --green: #ADC178;
+    --green-dark1: #354F52;
+    --green-dark2: #2F3E46;
+    --brown1:#A98467;
+    --brown2:#9A7961;
+    --brown3:#8B6E5A;
+    --brown4:#6C584C;
+    --greenl: #e9f5db;
+
+}
+
+
+
+
+.settings{
+    display: flex;
+    background-color:rgb(211, 218, 211);
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+.fileIn{
+    display: none;
+}
+
+.settingsTitle{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+font-size: 30px;
+margin-bottom: 29px;
+color: var(--green-dark2);
+font-family: 'Silkscreen', cursive;
+}
+
+.settingsDeleteTitle{
+font-size: 15px;
+color: rgb(162, 28, 28);
+font-family: 'Silkscreen', cursive;
+cursor: pointer;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsPP > img{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.settingsPPIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #84A98C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6C584C;
+}
+
+.settingsForm > input{
+    color: #354F52;
+    margin: 10px 0;
+    height: 25px;
+    border:none;
+    border-bottom: 5px solid var(--green-dark2);
+    border-style: outset;
+}
+
+.settingsSubmit{
+ width: 150px;   
+ align-self: center;
+ border: none;
+ border-radius: 10px;
+ background-color: var(--green-dark1);
+ color: white;
+ cursor: pointer;
+ padding: 10px;
+ margin-top: 20px;
+}

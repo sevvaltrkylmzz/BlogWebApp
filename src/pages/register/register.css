@@ -1,0 +1,74 @@
+:root{
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --background-lgreen : #88d4ab;
+    --green-light1 : #CAD2C5;
+    --green-light2: #84A98C;
+    --green-light3: #52796F;
+    --green: #ADC178;
+    --green-dark1: #354F52;
+    --green-dark2: #2F3E46;
+    --brown1:#A98467;
+    --brown2:#9A7961;
+    --brown3:#8B6E5A;
+    --brown4:#6C584C;
+    --greenl: #e9f5db;
+
+}
+
+
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(160, 211, 214, 0.4),rgba(101, 100, 169, 0.5)), url("/public/assets/registerbackground.jpg");
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Silkscreen', cursive;
+    letter-spacing: 20px;
+    color: #154b64;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registerForm > input{
+    padding: 10px;
+    border: none;
+    background-color: var(--green-light1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(91, 91, 175);
+    border: none;
+    color: var(--greenl);
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(51, 51, 95);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color: #CAD2C5;
+    cursor: pointer;
+}

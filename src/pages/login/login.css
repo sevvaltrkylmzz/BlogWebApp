@@ -1,0 +1,74 @@
+:root{
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --background-lgreen : #88d4ab;
+    --green-light1 : #CAD2C5;
+    --green-light2: #84A98C;
+    --green-light3: #52796F;
+    --green: #ADC178;
+    --green-dark1: #354F52;
+    --green-dark2: #2F3E46;
+    --brown1:#A98467;
+    --brown2:#9A7961;
+    --brown3:#8B6E5A;
+    --brown4:#6C584C;
+    --greenl: #e9f5db;
+
+}
+
+
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(150, 211, 141, 0.4),rgba(25, 90, 40, 0.6)), url("/public/assets/nature.jpg");
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 60px;
+  
+    margin-bottom: 20px;
+    font-family: 'Silkscreen', cursive;
+    letter-spacing: 20px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginForm > input{
+    padding: 10px;
+    border: none;
+    background-color: var(--green-light1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: var(--green-light2);
+    border: none;
+    color: var(--greenl);
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: var(--brown3);
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    color: #CAD2C5;
+    cursor: pointer;
+}
