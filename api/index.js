@@ -6,7 +6,7 @@ const authRoute = require("./routes/auth")
 
 
 dotenv.config();
-app.use(express.json())
+app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URL).then(console.log("connected to mongodb")).catch((err)=>console.log(err));
 
